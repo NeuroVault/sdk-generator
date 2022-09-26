@@ -1,0 +1,3 @@
+[submodule "NeuroVault"]
+	path = NeuroVault
+	url = https://github.com/NeuroVault/NeuroVault.git
