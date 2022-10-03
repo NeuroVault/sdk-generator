@@ -2,7 +2,7 @@
 
 generate=$1
 
-if [ -z ${generate} ] || [ ${generate} == "python" || ${generate} == "neurovault-python-sdk" ]; then
+if [ -z ${generate} ] || [ ${generate} == "python" ] || [ ${generate} == "neurovault-python-sdk" ]; then
 
     echo "generating neurovault python SDK..."
     docker run --rm --env JAVA_OPTS="${JAVA_OPTS} -Dlog.level=debug" --user $(id -u):$(id -g) \
